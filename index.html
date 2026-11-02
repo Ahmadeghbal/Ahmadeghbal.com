@@ -62,7 +62,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- 4. UNIFIED & VALIDATED GOOGLE KNOWLEDGE GRAPH SCHEMA (تجمیع‌شده، بدون خطا و منطبق با استاندارد پنل دانش گوگل) -->
- <script type="application/ld+json">
+<!-- 4. UNIFIED & VALIDATED GOOGLE KNOWLEDGE GRAPH SCHEMA -->
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -70,15 +71,15 @@
         "@type": "WebSite",
         "@id": "https://ahmadeghbal.com/#website",
         "url": "https://ahmadeghbal.com/",
-        "name": "Ahmad Eghbal (احمد اقبال) — Official Website",
-        "alternateName": ["احمد اقبال", "Ahmad Eghbal", "Æ Brand", "AE Brand"],
+        "name": "Ahmad Eghbal",
+        "alternateName": ["احمد اقبال", "Ahmad Eghbal Official Website", "Æ Brand", "AE Brand"],
         "publisher": { "@id": "https://ahmadeghbal.com/#person" }
       },
       {
         "@type": "ProfilePage",
         "@id": "https://ahmadeghbal.com/#profilepage",
         "url": "https://ahmadeghbal.com/",
-        "name": "Ahmad Eghbal (احمد اقبال) | Model and Electrical Engineer",
+        "name": "Ahmad Eghbal | Model and Electrical Engineer",
         "inLanguage": ["fa-IR", "en-US"],
         "isPartOf": { "@id": "https://ahmadeghbal.com/#website" },
         "mainEntity": { "@id": "https://ahmadeghbal.com/#person" },
@@ -92,7 +93,6 @@
         "name": "Ahmad Eghbal",
         "alternateName": [
           "احمد اقبال",
-          "Ahmad Eghbal (احمد اقبال)",
           "احمداقبال",
           "Ahmed Eghbal",
           "Æ",
@@ -101,19 +101,25 @@
         "givenName": "Ahmad",
         "familyName": "Eghbal",
         "gender": "https://schema.org/Male",
-        "disambiguatingDescription": "Model and Electrical Engineer | مدل و مهندس برق",
-        "description": "Ahmad Eghbal (احمد اقبال) is a Model and Electrical Engineer born in Tabriz (height: 185 cm). Passionate about engineering and fashion modeling since childhood, he achieved Rank 3 in the National Mathematics Entrance Exam (Konkoor) and earned his M.Sc. in Electrical Engineering from Shahid Beheshti University, defending his thesis on 'Presenting an Adaptive Protection Scheme Considering Network Reconfiguration' (ارائه طرح حفاظت تطبیقی با در نظر گرفتن تغییر آرایش). Simultaneously during his studies, he worked professionally in modeling and expanded his brand Æ (AE) in apparel and luxury goods.",
-        "jobTitle": [
-          "Model",
-          "Electrical Engineer",
-          "Model and Electrical Engineer",
-          "Founder & Owner of Æ (AE)",
-          "مدل و مهندس برق"
+        "disambiguatingDescription": "Model and Electrical Engineer",
+        "jobTitle": "Model and Electrical Engineer",
+        "hasOccupation": [
+          {
+            "@type": "Occupation",
+            "name": "Model",
+            "sameAs": "https://www.wikidata.org/wiki/Q4610556"
+          },
+          {
+            "@type": "Occupation",
+            "name": "Electrical Engineer",
+            "sameAs": "https://www.wikidata.org/wiki/Q1326886"
+          }
         ],
+        "description": "Ahmad Eghbal is an Iranian Model and Electrical Engineer born in Tabriz (height: 185 cm). He achieved Rank 3 in the National Mathematics Entrance Exam and earned his M.Sc. in Electrical Engineering from Shahid Beheshti University, specializing in adaptive protection schemes for smart grids. He is also the founder and owner of the luxury fashion brand Æ (AE).",
         "birthPlace": {
           "@type": "Place",
           "name": "Tabriz",
-          "alternateName": "تبریز",
+          "sameAs": "https://www.wikidata.org/wiki/Q80053",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Tabriz",
@@ -148,7 +154,7 @@
           "@type": "EducationalOccupationalCredential",
           "credentialCategory": "degree",
           "educationalLevel": "Master of Science",
-          "name": "Master of Science in Electrical Engineering (کارشناسی ارشد مهندسی برق — پایان‌نامه: ارائه طرح حفاظت تطبیقی با در نظر گرفتن تغییر آرایش)",
+          "name": "Master of Science in Electrical Engineering",
           "recognizedBy": {
             "@type": "CollegeOrUniversity",
             "name": "Shahid Beheshti University"
@@ -158,8 +164,8 @@
         "owns": { "@id": "https://ahmadeghbal.com/#brand" },
         "brand": { "@id": "https://ahmadeghbal.com/#brand" },
         "award": [
-          "Rank 3 in the National Mathematics Entrance Exam (رتبه ۳ کنکور ریاضی)",
-          "M.Sc. Thesis Defense: Presenting an Adaptive Protection Scheme Considering Network Reconfiguration (ارائه طرح حفاظت تطبیقی با در نظر گرفتن تغییر آرایش)"
+          "Rank 3 in the National Mathematics Entrance Exam (Konkoor)",
+          "M.Sc. Thesis: Presenting an Adaptive Protection Scheme Considering Network Reconfiguration"
         ],
         "knowsAbout": [
           "Fashion Modeling",
@@ -178,22 +184,22 @@
             "contentUrl": "https://ahmadeghbal.com/Ahmad-Eghbal-hero.jpg",
             "width": 1200,
             "height": 1200,
-            "name": "Ahmad Eghbal (احمد اقبال) — Official Portrait",
-            "caption": "Ahmad Eghbal (احمد اقبال) — Model and Electrical Engineer"
+            "name": "Ahmad Eghbal — Official Portrait",
+            "caption": "Ahmad Eghbal — Model and Electrical Engineer"
           },
           "https://ahmadeghbal.com/ahmadeghbal.JPG",
           "https://ahmadeghbal.com/Ahmad-Eghbal-suit-style%20-%20Copy.jpg",
           "https://ahmadeghbal.com/ahmad-eghbal-fashion-model.jpg",
           "https://ahmadeghbal.com/Ahmad-Eghbal-lifestyle.jpg",
           "https://ahmadeghbal.com/ahmad-eghbal-brand-portrait.jpg",
-          "https://ahmadeghbal.com/Ahmadeghbal-Brand.jpg",
-          "https://en.everybodywiki.com/images/f/f6/Ahmadeghbal.JPG"
+          "https://ahmadeghbal.com/Ahmadeghbal-Brand.jpg"
         ],
         "email": "mailto:a@ahmadeghbal.com",
         "sameAs": [
           "https://www.google.com/search?kgmid=/g/11v754x6jj",
           "https://ahmadeghbal.com/",
           "https://ahmadeghbal.ir/",
+          "https://hackernoon.com/u/ahmadeghbal",
           "https://www.instagram.com/ahmedeghbal",
           "https://www.linkedin.com/in/ahmadeghbal",
           "https://www.youtube.com/@ahmad.eghbal",
@@ -212,17 +218,16 @@
         "@type": "Brand",
         "@id": "https://ahmadeghbal.com/#brand",
         "name": "Æ",
-        "alternateName": ["AE", "AE Brand", "برند لوکس Æ", "برند پوشاک و کالای لوکس احمد اقبال"],
+        "alternateName": ["AE", "AE Brand"],
         "url": "https://ahmadeghbal.com/",
         "logo": "https://ahmadeghbal.com/Ahmadeghbal-Brand.jpg",
         "image": "https://ahmadeghbal.com/Ahmadeghbal-Brand.jpg",
         "founder": { "@id": "https://ahmadeghbal.com/#person" },
-        "description": "Æ (AE) is an apparel and luxury goods brand founded, owned, and developed by Ahmad Eghbal (احمد اقبال)."
+        "description": "Æ (AE) is an apparel and luxury goods brand founded and owned by Ahmad Eghbal."
       }
     ]
   }
   </script>
-
   <style>
     :root {
       --bg-pure: #ffffff;
@@ -1685,24 +1690,23 @@
       </div>
 
       <div class="bio-stack">
-        <!-- کادر اول: زندگینامه رسمی فارسی با تگ‌های اختصاصی Google Knowledge Graph -->
-        <article class="github-glass-card" itemscope itemtype="https://schema.org/Person" itemid="https://ahmadeghbal.com/#person">
-          <link itemprop="sameAs" href="https://www.google.com/search?kgmid=/g/11v754x6jj">
+        <!-- کادر اول: زندگینامه رسمی فارسی -->
+        <article class="github-glass-card">
           <span class="lang-badge">🇮🇷 بیوگرافی رسمی فارسی | Official Persian Biography</span>
 
-          <h2 class="namnak-bold-title" itemprop="name" style="border-bottom: 2.5px solid #0f172a; padding-bottom: 16px; margin-bottom: 24px;">
+          <h2 class="namnak-bold-title" style="border-bottom: 2.5px solid #0f172a; padding-bottom: 16px; margin-bottom: 24px;">
             Ahmad Eghbal (<a href="https://www.google.com/search?q=Ahmad+Eghbal&kgmid=/g/11v754x6jj" target="_blank" rel="noopener" class="kg-entity-link">احمد اقبال</a>) — مدل و مهندس برق (Model and Electrical Engineer)
           </h2>
 
           <div class="bio-knowledge-grid">
             <div class="bio-side-photos-col">
               <figure class="bio-id-frame" onclick="openPhotoModal('ahmadeghbal.JPG', 'Ahmad Eghbal (احمد اقبال) — تصویر رسمی بیوگرافی')">
-                <img src="ahmadeghbal.JPG" itemprop="image" alt="عکس رسمی بیوگرافی احمد اقبال - Ahmad Eghbal" title="احمد اقبال | Ahmad Eghbal">
+                <img src="ahmadeghbal.JPG" alt="عکس رسمی بیوگرافی احمد اقبال - Ahmad Eghbal" title="احمد اقبال | Ahmad Eghbal">
                 <figcaption>Ahmad Eghbal (احمد اقبال)</figcaption>
               </figure>
 
               <figure class="bio-id-frame" onclick="openPhotoModal('Ahmadeghbal-Brand.jpg', 'نماد و لوگوی رسمی برند لوکس احمد اقبال Æ (AE)')">
-                <img src="Ahmadeghbal-Brand.jpg" class="brand-symbol-img" itemprop="image" alt="لوگو و نماد برند پوشاک و کالای لوکس احمد اقبال Æ (AE)" title="برند لوکس Æ (AE) | احمد اقبال">
+                <img src="Ahmadeghbal-Brand.jpg" class="brand-symbol-img" alt="لوگو و نماد برند پوشاک و کالای لوکس احمد اقبال Æ (AE)" title="برند لوکس Æ (AE) | احمد اقبال">
                 <figcaption>برند پوشاک و کالای لوکس Æ (AE)</figcaption>
               </figure>
             </div>
@@ -1711,20 +1715,20 @@
             <table class="bio-facts-table" aria-label="مشخصات رسمی پنل دانش گوگل احمد اقبال">
               <tbody>
                 <tr>
-                  <th>نام رسمی (Display Name):</th>
+                  <th>نام رسمی (Name):</th>
                   <td><strong>Ahmad Eghbal (<a href="https://www.google.com/search?q=Ahmad+Eghbal&kgmid=/g/11v754x6jj" target="_blank" rel="noopener" class="kg-entity-link">احمد اقبال</a>)</strong></td>
                 </tr>
                 <tr>
-                  <th>عنوان شغلی (Subtitle):</th>
-                  <td itemprop="jobTitle"><strong>Model and Electrical Engineer (مدل و مهندس برق)</strong></td>
+                  <th>شغل و حرفه (Occupation):</th>
+                  <td><strong>Model, Electrical Engineer (مدل و مهندس برق)</strong></td>
                 </tr>
                 <tr>
                   <th>محل تحصیل (Education):</th>
-                  <td itemprop="alumniOf"><strong>Shahid Beheshti University (دانشگاه شهید بهشتی)</strong></td>
+                  <td><strong>Shahid Beheshti University (دانشگاه شهید بهشتی)</strong></td>
                 </tr>
                 <tr>
                   <th>آخرین مدرک تحصیلی (Degree):</th>
-                  <td itemprop="hasCredential"><strong>کارشناسی ارشد مهندسی برق (Master of Science in Electrical Engineering)</strong></td>
+                  <td><strong>کارشناسی ارشد مهندسی برق (Master of Science in Electrical Engineering)</strong></td>
                 </tr>
                 <tr>
                   <th>عنوان پایان‌نامه ارشد (Thesis):</th>
@@ -1732,26 +1736,25 @@
                 </tr>
                 <tr>
                   <th>موسس و صاحب برند (Founder &amp; Owner):</th>
-                  <td itemprop="brand"><strong>برند معروف Æ (AE) در حوزه پوشاک و کالای لوکس (Apparel &amp; Luxury Goods)</strong></td>
+                  <td><strong>برند معروف Æ (AE) در حوزه پوشاک و کالای لوکس (Apparel &amp; Luxury Goods)</strong></td>
                 </tr>
                 <tr>
                   <th>افتخار علمی کنکور (Award):</th>
-                  <td itemprop="award">کسب <strong>رتبه ۳ کنکور ریاضی</strong> در آزمون سراسری کارشناسی</td>
+                  <td>کسب <strong>رتبه ۳ کنکور ریاضی</strong> در آزمون سراسری کارشناسی</td>
                 </tr>
                 <tr>
                   <th>محل تولد (Place of Birth):</th>
-                  <td itemprop="birthPlace"><strong>تبریز (Tabriz)</strong></td>
+                  <td><strong>تبریز (Tabriz)</strong></td>
                 </tr>
                 <tr>
                   <th>قد (Height):</th>
-                  <td itemprop="height"><strong>185 cm (۱۸۵ سانتی‌متر / 1.85 m)</strong></td>
+                  <td><strong>185 cm (۱۸۵ سانتی‌متر / 1.85 m)</strong></td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <!-- متن جدید بیوگرافی فارسی تگ‌گذاری‌شده برای خزنده گوگل نالج -->
-          <div itemprop="description">
+          <div>
             <p class="namnak-body-text">
               <strong><a href="https://www.google.com/search?q=Ahmad+Eghbal&kgmid=/g/11v754x6jj" target="_blank" rel="noopener" class="kg-entity-link">احمد اقبال</a> (Ahmad Eghbal)</strong>، <strong>مدل و مهندس برق (Model and Electrical Engineer)</strong> با قد <strong>۱۸۵ سانتی‌متر (185 cm)</strong>، متولد شهر <strong>تبریز (Tabriz)</strong> است. وی از همان دوران کودکی، علاقه‌ای عمیق و توأمان به رشته‌های مهندسی و در کنار آن به هنر <strong>مدل و فشن</strong> داشت. همین علاقه شدید به درس و کسب علم سبب شد تا در آزمون سراسری کارشناسی، موفق به کسب <strong>رتبه ۳ در کنکور ریاضی</strong> شود و مسیر علمی خود را در بالاترین سطح آکادمیک آغاز نماید.
             </p>
@@ -1764,16 +1767,15 @@
           </div>
         </article>
 
-        <!-- کادر دوم: بیوگرافی انگلیسی تگ‌گذاری‌شده برای خزنده بین‌المللی Google Knowledge Panel -->
-        <article class="github-glass-card bio-en-section" lang="en" dir="ltr" itemscope itemtype="https://schema.org/Person" itemid="https://ahmadeghbal.com/#person">
-          <link itemprop="sameAs" href="https://www.google.com/search?kgmid=/g/11v754x6jj">
+        <!-- کادر دوم: بیوگرافی انگلیسی -->
+        <article class="github-glass-card bio-en-section" lang="en" dir="ltr">
           <div class="en-hero-banner-bar">
             <span>🌐 OFFICIAL ENGLISH BIOGRAPHY • GOOGLE KNOWLEDGE PANEL OVERVIEW</span>
-            <h3 itemprop="name">Ahmad Eghbal (احمد اقبال) — Model and Electrical Engineer</h3>
+            <h3>Ahmad Eghbal — Model and Electrical Engineer</h3>
           </div>
 
           <div class="bio-en-content-grid">
-            <div itemprop="description">
+            <div>
               <p>
                 <strong><a href="https://www.google.com/search?q=Ahmad+Eghbal&kgmid=/g/11v754x6jj" target="_blank" rel="noopener" class="kg-entity-link">Ahmad Eghbal</a> (احمد اقبال)</strong> is a <strong>Model and Electrical Engineer</strong> born in <strong>Tabriz</strong>, standing <strong>185 cm (1.85 m)</strong> tall. Since childhood, he has held a dual passion for engineering disciplines alongside the art of modeling and fashion. Driven by an intense dedication to studying and acquiring knowledge, he achieved <strong>Rank 3 in the National Mathematics Entrance Exam (Konkoor)</strong> for his undergraduate degree.
               </p>
